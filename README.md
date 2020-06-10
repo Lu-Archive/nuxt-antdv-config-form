@@ -1,2 +1,22 @@
-# nuxt-antdv-config-form
-可视化，读取json配置自动生成后台表单页面
+# machine-monitor
+
+> My good Nuxt.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

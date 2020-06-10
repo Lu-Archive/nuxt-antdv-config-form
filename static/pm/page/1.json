@@ -1,0 +1,76 @@
+{
+    "pageId": 1,
+    "signLib": [
+        "/pm/sign/com.json"
+    ],
+    "table": {
+        "widget": {
+            "search": {
+                "keys": [
+                    "id",
+                    "name"
+                ],
+                "placeholder": ""
+            },
+            "pager": true
+        },
+        "columns": [
+            {
+                "key": "networkId",
+                "title": "组网ID",
+                "width": 200,
+                "operate":{
+                    "isEditItem": true,
+                    "editable": false
+                }
+            },
+            {
+                "key": "sn",
+                "title": "sn序列号",
+                "width": 200,
+                "operate":{
+                    "isAddItem": true,
+                    "isEditItem": true
+                }
+            },
+            {
+                "key": "updateTime",
+                "title": "更新时间",
+                "width": 200
+            },
+            {
+                "key": "remark",
+                "title": "备注",
+                "width": 200,
+                "operate":{
+                    "isEditItem": true,
+                    "isAddItem": true
+                }
+            },
+            {
+                "key": "state",
+                "title": "状态",
+                "width": 200,
+                "signKey": "switch",
+                "operate":{
+                    "isEditItem": true,
+                    "editable": true
+                }
+            }
+        ],
+        "operate": {
+            "getList":{
+                "api":"/api/getList"
+            },
+            "edit": {
+                "api":"/api/edit"
+            },
+            "add": {
+                "api": "/api/add"
+            },
+            "delete": {
+                "api": "/api/delete"
+            }
+        }
+    }
+}

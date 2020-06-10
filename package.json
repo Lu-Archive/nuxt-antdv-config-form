@@ -1,0 +1,44 @@
+{
+  "name": "easy-back-web",
+  "version": "1.0.0",
+  "description": "easy-back-web",
+  "author": "coder",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host":"192.168.103.242",
+      "port": "3101"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxt/types": "^0.6.4",
+    "@nuxt/typescript-runtime": "^0.4.0",
+    "@nuxtjs/proxy": "^1.3.3",
+    "ant-design-vue": "^1.1.10",
+    "axios": "^0.19.2",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "jj-browser-fn": "^2.0.13",
+    "jj-vdt": "^1.0.12",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "nuxt-property-decorator": "^2.5.1"
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "^2.8.1",
+    "@nuxt/typescript-build": "^0.6.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "nuxt": "^2.12.2",
+    "nodemon": "^1.18.9",
+    "vue-jest": "^4.0.0-0"
+  }
+}
