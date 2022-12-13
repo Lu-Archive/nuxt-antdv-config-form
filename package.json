@@ -24,7 +24,7 @@
     "ant-design-vue": "^1.1.10",
     "axios": "^0.19.2",
     "cross-env": "^5.2.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "jj-browser-fn": "^2.0.13",
     "jj-vdt": "^1.0.12",
     "less": "^3.11.1",
